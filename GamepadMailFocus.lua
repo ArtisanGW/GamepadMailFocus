@@ -1,6 +1,6 @@
 -- Gamepad Mail Focus
 -- A vanilla addon: it uses only the game, never another addon. Its own event
--- frame, slash command (/gmf) and saved variables (GamepadMailFocusDB).
+-- frame, slash command (/gpmf) and saved variables (GamepadMailFocusDB).
 -- What it does is in Focus.lua.
 local ADDON, addon = ...
 
@@ -19,7 +19,7 @@ events:SetScript("OnEvent", function(_, event, name)
     end
 end)
 
-SLASH_GAMEPADMAILFOCUS1 = "/gmf"
+SLASH_GAMEPADMAILFOCUS1 = "/gpmf"
 SlashCmdList.GAMEPADMAILFOCUS = function()
     print("With a controller, the Send Mail tab no longer holds the D-pad in the To field.")
     print("Press A on a field to type in it.")

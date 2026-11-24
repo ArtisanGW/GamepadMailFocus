@@ -12,7 +12,7 @@ This addon lets go of the To field as soon as the game focuses it: when the tab 
 It's a simple tool with no dependencies:
 - On as soon as it's installed
 - Only with a controller: with mouse and keyboard, nothing changes
-- /gmf says what it does
+- /gpmf says what it does
 
 ## Goes well with
 - [Gamepad Fast Map](https://www.curseforge.com/projects/1827949): opens and closes the world map without its hitch.
