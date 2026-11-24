@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Gamepad Mail Focus: a letter with its To field (a yellow line with a pink caret), and the controller's
+       D-pad below it, its right arm lit: the cursor moves on instead of staying stuck in the field.
+       Palette as Alt Courier's icon: navy, teal, pastel pink, yellow and tan. -->
+  <rect x="0" y="0" width="512" height="512" fill="#15202E"/>
+
+  <!-- the letter: an envelope, its flap folded down -->
+  <rect x="72" y="64" width="368" height="248" rx="28" fill="#15202E" stroke="#5BE0C8" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M 84 80 L 256 196 L 428 80" fill="none" stroke="#5BE0C8" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- its stamp -->
+  <rect x="356" y="96" width="52" height="60" rx="10" fill="#D9B48F"/>
+  <!-- the To field: a yellow pill, with the pink text caret in it -->
+  <rect x="112" y="234" width="204" height="44" rx="22" fill="#F6D98B"/>
+  <path d="M 148 246 V 266" fill="none" stroke="#F4A7B9" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- the D-pad, its right arm lit in pink -->
+  <g transform="translate(208 404)">
+    <path d="M -26 -72 H 26 Q 30 -72 30 -68 V -30 H 68 Q 72 -30 72 -26 V 26 Q 72 30 68 30 H 30 V 68 Q 30 72 26 72 H -26 Q -30 72 -30 68 V 30 H -68 Q -72 30 -72 26 V -26 Q -72 -30 -68 -30 H -30 V -68 Q -30 -72 -26 -72 Z"
+          fill="#15202E" stroke="#5BE0C8" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M 34 -18 L 56 0 L 34 18" fill="none" stroke="#F4A7B9" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="9" fill="#5BE0C8"/>
+  </g>
+  <!-- the cursor's way out of the field: a pink chevron trail to the right -->
+  <g fill="none" stroke="#F4A7B9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 420 380 L 444 404 L 420 428"/>
+    <path d="M 324 380 L 348 404 L 324 428"/>
+    <path d="M 372 380 L 396 404 L 372 428"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+# What the BigWigs packager puts in the release zip.
+# Files starting with a dot (.pkgmeta) are left out on their own.
+package-as: GamepadMailFocus
+
+# Comments only on their own line: the packager reads anything after an item as part of it.
+ignore:
+  # the CurseForge page text, pasted there by hand
+  - CURSEFORGE.md
+  - tests
+  # the icon's source and its CurseForge size; the game uses Media/icon-64.png
+  - Media/icon.svg
+  - Media/icon-400.png
+
+# The changelog shown with each release: written by hand, not built from commit messages.
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown

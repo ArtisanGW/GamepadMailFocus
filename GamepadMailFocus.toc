@@ -1,0 +1,11 @@
+## Interface: 16001
+## Title: Gamepad Mail Focus
+## Notes: With a controller, the Send Mail tab no longer traps you in the To field: the D-pad moves the cursor. Commands: /gmf.
+## Author: Artisan
+## Version: @project-version@
+## SavedVariables: GamepadMailFocusDB
+## Category: Gamepad
+## IconTexture: Interface\AddOns\GamepadMailFocus\Media\icon-64.png
+
+Focus.lua
+GamepadMailFocus.lua
