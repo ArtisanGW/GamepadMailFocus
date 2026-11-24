@@ -15,7 +15,7 @@ It's a simple tool with no dependencies:
 - /gmf says what it does
 
 ## Goes well with
-- [Gamepad Fast Map](https://github.com/ArtisanGW/GamepadFastMap): opens and closes the world map without its hitch.
+- [Gamepad Fast Map](https://www.curseforge.com/projects/1827949): opens and closes the world map without its hitch.
 - [Gamepad Camera Offset](https://www.curseforge.com/projects/1818297): moves the camera over your shoulder.
 - [Gamepad Reticle Customizer](https://www.curseforge.com/projects/1818557): turns the reticle into an icon on your target: a player's class or faction, an NPC's job.
 - [Gamepad Reticle On Target](https://www.curseforge.com/projects/1819101): puts the controller's reticle on your target's nameplate.
