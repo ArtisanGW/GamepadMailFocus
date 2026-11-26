@@ -1,7 +1,16 @@
-**Summary:** With a controller, the Send Mail tab no longer traps the D-pad in the To field. Install it and the cursor moves again.
-**Categories:** Mail
+# Summary
 
-## Description
+With a controller, the Send Mail tab no longer traps the D-pad in the To field. Install it and the cursor moves again.
+
+# Categories
+
+- Mail
+
+# License
+
+All Rights Reserved
+
+# Description
 
 With the controller UI on, opening the Send Mail tab puts the cursor in the To field. A text field holds the D-pad, so the cursor can't leave it, and the mail can't be closed with B. The only way out is to walk away from the mailbox.
 
