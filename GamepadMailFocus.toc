@@ -5,7 +5,7 @@
 ## Version: @project-version@
 ## SavedVariables: GamepadMailFocusDB
 ## Category: Gamepad
-## IconTexture: Interface\AddOns\GamepadMailFocus\Media\icon-64.png
+## IconTexture: Interface\AddOns\GamepadMailFocus\Code\Media\icon-64.png
 
-Focus.lua
-GamepadMailFocus.lua
+Code/Focus.lua
+Code/GamepadMailFocus.lua

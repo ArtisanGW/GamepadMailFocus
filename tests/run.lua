@@ -43,7 +43,7 @@ DEFAULT_CHAT_FRAME = { AddMessage = function() end }
 
 local addon = {}
 for line in io.lines("GamepadMailFocus.toc") do
-    line = line:gsub("\r", "")
+    line = line:gsub("\r", ""):gsub("\\", "/")
     if line:match("%.lua$") then assert(loadfile(line))("GamepadMailFocus", addon) end
 end
 local events = frames[1]
