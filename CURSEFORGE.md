@@ -1,6 +1,6 @@
 # Summary
 
-With a controller, the Send Mail tab no longer traps the D-pad in the To field. Install it and the cursor moves again.
+Free the D-pad from the To field. With a controller, the Send Mail tab lets the cursor move again.
 
 # Categories
 
